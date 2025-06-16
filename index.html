@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <title>mystic thing</title>
+    <script>
+      const originalTitle = "say it 3 times: fairy, fairy, fairy ";
+      let position = 0;
+
+      function scrollTitle() {
+        document.title =
+          originalTitle.slice(position) + originalTitle.slice(0, position);
+        position = (position + 1) % originalTitle.length;
+      }
+
+      setInterval(scrollTitle, 200);
+    </script>
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div id="texty">
+      the power of a million within me. how will you mirror this?
+    </div>
+
+    <div id="baby">
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/64hsFAz8f65N2TReIgIZdT?utm_source=generator"
+        width="80%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <!-- Website title -->
+    <img
+      src="images/title.png"
+      style="width: 999px; height: auto; display: block"
+    />
+
+    <!-- Top notes -->
+    <!-- Horoscopes -->
+    <a href="https://itsallfluff.substack.com/s/horoscopes"
+      ><img
+        src="images/notes/pinkcrystal.jpg"
+        class="notes"
+        id="horoscopes"
+        title="horoscopes"
+    /></a>
+
+    <!-- Blog -->
+    <a href="https://magicalbastardism.substack.com/"
+      ><img src="images/notes/litchi.jpg" class="notes" id="blog" title="blog"
+    /></a>
+
+    <!-- Published -->
+    <img
+      src="images/notes/mint.jpg"
+      class="notes"
+      id="published"
+      title="selected publications"
+      onclick="showPage('page1')"
+    />
+
+    <!-- Photography -->
+
+    <!-- Mid notes -->
+    <!-- Diary of a Wolf -->
+    <img
+      src="images/notes/absinthe.jpg"
+      class="notes"
+      id="wolf"
+      title="diary of a wolf"
+      onclick="showPage('page2')"
+    />
+    
+    <!-- Public Bedroom -->
+    <img
+      src="images/notes/seafoam.jpg"
+      class="notes"
+      id="pb"
+      onclick="showPage('page3')"
+    />
+    
+    <!-- Jewelry -->
+    <img
+      src="images/notes/peach.jpg"
+      class="notes"
+      id="jewelry"
+      onclick="showPage('page4')"
+    />
+    
+    <!-- Pink Swan Oracle -->
+    <a href="swan.html"
+      ><img src="images/notes/ash.jpg" class="notes" id="swan" title="consult the pink swan oracle"
+    /></a>
+    
+    <!-- Rhyan Stoned -->
+    <img
+      src="images/notes/matchatea.jpg"
+      class="notes"
+      id="rhyan"
+      onclick="showPage('page5')"
+    />
+
+    <!-- Base notes -->
+    <img
+      src="images/notes/blood.jpg"
+      class="notes"
+      id="curio"
+      onclick="showPage('page6')"
+    />
+    <img
+      src="images/notes/lipgloss.jpg"
+      class="notes"
+      id="selected"
+      onclick="showPage('page7')"
+    />
+    <img
+      src="images/notes/vanilla.jpg"
+      class="notes"
+      id="videos"
+      onclick="showPage('page8')"
+    />
+
+    <!-- Buttons -->
+    <a href="/main"
+      ><img
+        src="https://64.media.tumblr.com/03873622d963cbe8f04cdf1c551b3230/43c8c72bc166773b-75/s2048x3072/432d5c94ae70edcecd93783330b1197d565392b8.pnj"
+        class="buttons"
+        id="prev"
+    /></a>
+  </body>
+</html>
