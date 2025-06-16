@@ -164,24 +164,27 @@ img {
   width: auto;
   left: 50%;
   color: #008b92;
+  cursor: pointer;
   transform: translateX(-50%);
 }
 
 .midnotes {
   position: absolute;
-  top: 240px;
+  top: 270px;
   width: auto;
   left: 50%;
   color: #008b92;
+  cursor: pointer;
   transform: translateX(-50%);
 }
 
 .basenotes {
   position: absolute;
-  top: 400px;
+  top: 450px;
   width: auto;
   left: 50%;
   color: #008b92;
+  cursor: pointer;
   transform: translateX(-50%);
 }
 
