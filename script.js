@@ -30,15 +30,16 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-// Page navigation logic
+// Pages
 function showPage(pageId) {
   document
-    .querySelectorAll(".page,.pop")
+    .querySelectorAll('.page,.pop')
     .forEach((p) => p.classList.remove("active"));
   if (pageId) {
     document.getElementById(pageId).classList.add("active");
   }
 }
+
 // Scrolling tab thing
 const originalTitle = "say it 3 times: fairy, fairy, fairy";
 let position = 0;
@@ -54,7 +55,7 @@ setInterval(scrollTitle, 200); // Adjust speed here (ms)
 // Hover tool tip
 (function ($) {
   $(document).ready(function () {
-    $("a[title], img[title]").style_my_tooltips({
+    $('a[title], img[title]').style_my_tooltips({
       tip_follows_cursor: true,
       tip_delay_time: 0,
       tip_fade_speed: 40,
