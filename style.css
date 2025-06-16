@@ -55,6 +55,11 @@ body {
   background-size: contain;
 }
 
+a {
+  color: #008b92;
+  cursor: pointer;
+}
+
 .mySlides {
   display: none;
 }
