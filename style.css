@@ -115,7 +115,7 @@ img {
 .page {
   display: none;
   position: fixed;
-  color: #000;
+  color: #020d84;
   top: 60px;
   left: 50%;
   transform: translateX(-50%);
@@ -152,7 +152,7 @@ img {
 }
 
 .notetitles {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   text-align: center;
   color: #000; /* or whatever fits your palette */
@@ -160,18 +160,16 @@ img {
 
 .topnotes {
   position: absolute;
-  top: 200px;
+  top: 100px;
   width: auto;
   left: 50%;
   color: #008b92;
-  font-size:16px;
-  margin:10px;
   transform: translateX(-50%);
 }
 
 .midnotes {
   position: absolute;
-  top: 320px;
+  top: 240px;
   width: auto;
   left: 50%;
   color: #008b92;
@@ -180,7 +178,7 @@ img {
 
 .basenotes {
   position: absolute;
-  top: 450px;
+  top: 400px;
   width: auto;
   left: 50%;
   color: #008b92;
@@ -188,10 +186,10 @@ img {
 }
 
 .note-item {
-  display: inline-block;  /* Keep items side by side */
-  text-align: center;     /* Center contents inside the div */
-  margin: 0 12px;         /* Horizontal spacing between items */
-  vertical-align: top;    /* Align items to top */
+  display: inline-block; /* Keep items side by side */
+  text-align: center; /* Center contents inside the div */
+  margin: 0 12px; /* Horizontal spacing between items */
+  vertical-align: top; /* Align items to top */
 }
 
 .caption {
