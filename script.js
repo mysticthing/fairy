@@ -54,7 +54,7 @@ setInterval(scrollTitle, 200); // Adjust speed here (ms)
 // Hover tool tip
 (function ($) {
   $(document).ready(function () {
-    $("a[title]").style_my_tooltips({
+    $("a[title], img[title]").style_my_tooltips({
       tip_follows_cursor: true,
       tip_delay_time: 0,
       tip_fade_speed: 40,
