@@ -88,6 +88,7 @@ img {
   left: -550px;
   width: 300px;
   border: 5px #000 solid;
+  background-image: url("https://64.media.tumblr.com/b86445fbe0d04e31e6719561b7a64fdc/d671554698522761-47/s2048x3072/ebc3daa922fa41af39d8725170b25f29d289ea0e.jpg");
   text-align: center;
 }
 
@@ -153,89 +154,38 @@ img {
   display: block;
 }
 
-.notes {
+.notetitles {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #000; /* or whatever fits your palette */
+}
+
+.topnotes {
   position: absolute;
   cursor: pointer;
+  top: 200px;
+  width: a;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#horoscopes {
+.midnotes {
+  position: absolute;
+  cursor: pointer;
   top: 300px;
-  left: 0px;
-  width: 48px;
-}
-
-#blog {
-  top: 300px;
-  left: 60px;
-  width: 48px;
-}
-
-#published {
-  top: 300px;
-  left: 120px;
-  width: 48px;
-}
-
-#gb {
-  top: 300px;
-  left: 180px;
-  width: 48px;
-}
-
-#photog {
-  top: 300px;
-  left: 240px;
-  width: 48px;
-}
-
-#wolf {
-  top: 450px;
+  width: auto;
   left: 50%;
-  width: 48px;
+  transform: translateX(-50%);
 }
 
-#pb {
-  top: 600px;
+.basenotes {
+  position: absolute;
+  cursor: pointer;
+  top: 400px;
+  width: auto;
   left: 50%;
-  width: 48px;
-}
-
-#jewelry {
-  top: 600px;
-  left: 50%;
-  width: 48px;
-}
-
-#swan {
-  top: 600px;
-  left: 50%;
-  width: 48px;
-}
-
-#rhyan {
-  top: 600px;
-  left: 50%;
-  width: 48px;
-}
-
-#curio {
-  top: 600px;
-  left: 50%;
-  width: 48px;
-}
-
-#selected {
-  top: 600px;
-  left: 50%;
-  width: 48px;
-}
-
-#videos {
-  top: 600px;
-  left: 50%;
-  width: 48px;
+  transform: translateX(-50%);
 }
 
 .buttons {
