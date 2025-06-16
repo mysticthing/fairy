@@ -2,6 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"
       defer
@@ -27,7 +31,6 @@
     <link rel="shortcut icon" href="images/favicon.png" />
   </head>
   <body>
-
     <!-- Website title -->
     <img
       src="images/title.png"
@@ -35,91 +38,108 @@
     />
 
     <!-- Top notes -->
-    <!-- Horoscopes -->
-    <a href="https://itsallfluff.substack.com/s/horoscopes" target="_blank"
-      ><img
-        src="images/notes/pinkcrystal.jpg"
-        class="notes"
-        id="horoscopes"
-        title="horoscopes"
-    /></a>
+    <div class="topnotes">
+      <p class="notetitles">Top Notes</p>
+      <!-- Horoscopes -->
+      <a href="https://itsallfluff.substack.com/s/horoscopes" target="_blank"
+        ><img
+          src="images/notes/pinkcrystal.jpg"
+          width="48px"
+          title="horoscopes" /></a
+      >&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <!-- Blog -->
-    <a href="https://magicalbastardism.substack.com/" target="_blank"
-      ><img src="images/notes/litchi.jpg" class="notes" id="blog" title="blog"
-    /></a>
+      <!-- Blog -->
+      <a href="https://magicalbastardism.substack.com/" target="_blank"
+        ><img src="images/notes/litchi.jpg" width="48px" title="blog" /></a
+      >&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <!-- Published -->
-    <img
-      src="images/notes/mint.jpg"
-      class="notes"
-      id="published"
-      title="selected publications"
-      onclick="showPage('page1')"
-    />
+      <!-- Published -->
+      <img
+        src="images/notes/mint.jpg"
+        width="48px"
+        title="selected publications"
+        onclick="showPage('page1')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <!-- Photography -->
+      <!-- Gum & Buttons -->
+      <img
+        src="images/notes/matchatea.jpg"
+        width="48px"
+        title="selected publications"
+        onclick="showPage('page1')"
+      />
+    </div>
 
     <!-- Mid notes -->
-    <!-- Diary of a Wolf -->
-    <img
-      src="images/notes/absinthe.jpg"
-      class="notes"
-      id="wolf"
-      title="diary of a wolf"
-      onclick="showPage('page2')"
-    />
-    
-    <!-- Public Bedroom -->
-    <img
-      src="images/notes/seafoam.jpg"
-      class="notes"
-      id="pb"
-      onclick="showPage('page3')"
-    />
-    
-    <!-- Jewelry -->
-    <img
-      src="images/notes/peach.jpg"
-      class="notes"
-      id="jewelry"
-      onclick="showPage('page4')"
-    />
-    
-    <!-- Pink Swan Oracle -->
-    <img
-      src="images/notes/ash.jpg"
-      class="notes"
-      id="swan"
-      onclick="showPage('page5')"
-    />
-    
-    <!-- Rhyan Stoned -->
-    <img
-      src="images/notes/matchatea.jpg"
-      class="notes"
-      id="rhyan"
-      onclick="showPage('page6')"
-    />
+    <div class="midnotes">
+      <p class="notetitles">Middle Notes</p>
+      <!-- Diary of a Wolf -->
+      <img
+        src="images/notes/absinthe.jpg"
+        width="48px"
+        title="diary of a wolf"
+        onclick="showPage('page2')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Public Bedroom -->
+      <img
+        src="images/notes/seafoam.jpg"
+        width="48px"
+        title="public bedroom"
+        onclick="showPage('page3')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Jewelry -->
+      <img
+        src="images/notes/peach.jpg"
+        width="48px"
+        title="jewelry"
+        onclick="showPage('page4')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Pink Swan Oracle -->
+      <img
+        src="images/notes/ash.jpg"
+        width="48px"
+        title="consult the pink swan oracle"
+        onclick="showPage('page5')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Rhyan Stoned -->
+      <img
+        src="images/notes/matchatea.jpg"
+        width="48px"
+        title="rhyan stoned"
+        onclick="showPage('page6')"
+      />
+    </div>
 
     <!-- Base notes -->
-    <img
-      src="images/notes/blood.jpg"
-      class="notes"
-      id="curio"
-      onclick="showPage('page7')"
-    />
-    <img
-      src="images/notes/lipgloss.jpg"
-      class="notes"
-      id="selected"
-      onclick="showPage('page8')"
-    />
-    <img
-      src="images/notes/vanilla.jpg"
-      class="notes"
-      id="videos"
-      onclick="showPage('page9')"
-    />
+    <div class="basenotes">
+      <p class="notetitles">Base Notes</p>
+      <!-- Imi's Curio Shop -->
+      <img
+        src="images/notes/blood.jpg"
+        width="48px"
+        title="imi's curio shop"
+        onclick="showPage('page7')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Selected Drawings -->
+      <img
+        src="images/notes/lipgloss.jpg"
+        width="48px"
+        title="paintings and drawings"
+        onclick="showPage('page8')"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <!-- Videos -->
+      <img
+        src="images/notes/vanilla.jpg"
+        width="48px"
+        title="videos"
+        onclick="showPage('page9')"
+      />
+    </div>
   </body>
 </html>
