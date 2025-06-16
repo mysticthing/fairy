@@ -291,5 +291,13 @@
         onclick="showPage(null)"
       />
     </div>
+<script>
+  function showPage(pageId) {
+    document.querySelectorAll('.page,.pop').forEach(p => p.classList.remove('active'));
+    if (pageId) {
+      document.getElementById(pageId).classList.add('active');
+    }
+  }
+</script>
   </body>
 </html>
